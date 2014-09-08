@@ -15,7 +15,7 @@
 #define TRAIN_FILE "E:/NLP/corpus/train.txt"
 #define TEST_FILE "E:/NLP/corpus/Test.txt"
 
-#define INFILE_WORDTOINT "E:\\myproject\\outFormat_old.txt"
+#define INFILE_WORDTOINT "E:\\myproject\\learncorpus_pos.txt"
 #define OUTFILE_WORDTOINT "E:\\myproject\\wordid.txt"
 #define OUTFILE_WORDTOINT2 "E:\\myproject\\wordid2.txt"
 //定义语料库中用于训练和测试的百分比
@@ -222,7 +222,8 @@ int GetRecordRows()
 
 void main()
 {
-	//OutFileFormat();
+	OutFileFormat("E:\\NLP\\mywork\\project\\githup\\direction_understand\\learncorpus_pos.txt",
+					"E:\\NLP\\mywork\\project\\githup\\direction_understand\\learncorpus_posformat.txt");
 	//ReadWriteFile();
 	//cout << GetRecordRows();
 	//ReadWriteFile("E:/NLP/corpus/pos_train.txt","E:/NLP/corpus/CRF/TestNER_train.txt");
@@ -231,7 +232,7 @@ void main()
 
 	
 	 //getWordDict(INFILE_WORDTOINT,OUTFILE_WORDTOINT);
-	 tagWordToInt(INFILE_WORDTOINT,OUTFILE_WORDTOINT,OUTFILE_WORDTOINT2);
+	 //tagWordToInt(INFILE_WORDTOINT,OUTFILE_WORDTOINT,OUTFILE_WORDTOINT2);
 
 
 }

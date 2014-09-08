@@ -1,0 +1,313 @@
+请 v N N
+在 p N N
+上午 t B-T B-T
+十点 m I-T I-T
+给 p N N
+我 rr B-H B-H
+倒 vi B-S B-S
+杯 ng N N
+水 n B-O B-O
+放 v N N
+在 p N N
+餐桌 n B-L B-L
+上 f I-L I-L
+
+请 v N N
+在 p N N
+上午 t B-T B-T
+五点 m I-T I-T
+给 p N N
+我 rr B-H B-H
+热 a B-S B-S
+杯 ng N N
+牛奶 n B-O B-O
+放在 v N N
+书桌 n B-L B-L
+上 f I-L I-L
+
+请 v N N
+在 p N N
+上午 t B-T B-T
+九点 m I-T I-T
+给 p N N
+刘德华 nr B-H B-H
+倒 vi B-S B-S
+杯 ng N N
+茶 ng B-O B-O
+放 v N N
+在 p N N
+餐桌 n B-L B-L
+上 f I-L I-L
+
+请 v N N
+在 p N N
+上午 t B-T B-T
+十一点 m I-T I-T
+给 p N N
+我 rr B-H B-H
+拿 v B-S B-S
+本 rz N N
+杂志 n B-O B-O
+放在 v N N
+茶几 n B-L B-L
+上 f I-L I-L
+
+请 v N N
+在 p N N
+下午 t B-T B-T
+一点 m I-T I-T
+给 p N N
+我 rr B-H B-H
+拿 v B-S B-S
+本 rz N N
+杂志 n B-O B-O
+放在 v N N
+茶几 n B-L B-L
+上 f I-L I-L
+
+请 v N N
+在 p N N
+上午 t B-T B-T
+六点 m I-T I-T
+把 pba N N
+厕所 n B-O B-O
+打扫 v B-S B-S
+一下 mq N N
+
+请 v N N
+在 p N N
+上午 t B-T B-T
+六点 m I-T I-T
+把 pba N N
+电视机 n B-O B-O
+打开 v B-S B-S
+
+请 v N N
+在 p N N
+上午 t B-T B-T
+六点 m I-T I-T
+喂 v B-S B-S
+宠物 n B-O B-O
+
+上午 t B-T B-T
+六点 m I-T I-T
+把 pba N N
+卧室 n B-O B-O
+打扫 v B-S B-S
+一下 mq N N
+
+上午 t B-T B-T
+六点 m I-T I-T
+把 pba N N
+门 n B-O B-O
+打开 v B-S B-S
+
+上午 t B-T B-T
+六点 m I-T I-T
+打扫 v B-S B-S
+卧室 n B-O B-O
+
+上午 t B-T B-T
+六点 m I-T I-T
+晒 v B-S B-S
+被子 n B-O B-O
+上午 t B-T B-T
+把 pba N N
+垃圾 n B-O B-O
+倒掉 v B-S B-S
+
+上午 t B-T B-T
+把 pba N N
+阳台 n B-O B-O
+打扫 v B-S B-S
+一下 mq N N
+
+上午 t B-T B-T
+喂 v B-S B-S
+狗 n B-O B-O
+
+上午 t B-T B-T
+启动 v B-S B-S
+电脑 n B-O B-O
+
+把 pba N N
+粥 n B-O B-O
+煮 v B-S B-S
+上 f N N
+
+把 pba N N
+空调 n B-O B-O
+关闭 v B-S B-S
+
+给 p B-S B-S
+他 rr B-H B-H
+一个 mq N N
+打火机 n B-O B-O
+放 v N N
+在 p N N
+餐桌 n B-L B-L
+上 f I-L I-L
+
+给 p N N
+我 rr B-H B-H
+拿 v B-S B-S
+个 q N N
+西瓜 n B-O B-O
+放 v N N
+在 p N N
+餐桌 n B-L B-L
+上 f I-L I-L
+
+帮 v N N
+我 rr B-H B-H
+拿 v B-S B-S
+个 q N N
+桔子 n B-O B-O
+放 v N N
+在 p N N
+餐桌 n B-L B-L
+上 f I-L I-L
+
+给 p N N
+我 rr B-H B-H
+倒 vi B-S B-S
+杯 ng N N
+果汁 n B-O B-O
+放 v N N
+在 p N N
+餐桌 n B-L B-L
+上 f I-L I-L
+
+帮 v N N
+我 rr B-H B-H
+倒 vi B-S B-S
+杯 ng N N
+牛奶 n B-O B-O
+放 v N N
+在 p N N
+餐桌 n B-L B-L
+上 f I-L I-L
+
+给 p B-S B-S
+我 rr B-H B-H
+一个 mq N N
+打火机 n B-O B-O
+放在 v N N
+茶几 n B-L B-L
+上 f I-L I-L
+
+帮 v N N
+我 rr B-H B-H
+拿 v B-S B-S
+个 q N N
+香蕉 n B-O B-O
+放在 v N N
+茶几 n B-L B-L
+上 f I-L I-L
+
+给 p N N
+我 rr B-H B-H
+倒 vi B-S B-S
+杯 ng N N
+饮料 n B-O B-O
+放在 v N N
+茶几 n B-L B-L
+上 f I-L I-L
+
+帮 v N N
+我 rr B-H B-H
+倒 vi B-S B-S
+杯 ng N N
+果汁 n B-O B-O
+放在 v N N
+茶几 n B-L B-L
+上 f I-L I-L
+
+给 p N N
+我 rr B-H B-H
+拿 v B-S B-S
+个 q N N
+苹果 n B-O B-O
+放在 v N N
+书桌 n B-L B-L
+上 f I-L I-L
+
+帮 v N N
+我 rr B-H B-H
+拿 v B-S B-S
+个 q N N
+苹果 n B-O B-O
+放在 v N N
+书桌 n B-L B-L
+上 f I-L I-L
+
+给 p N N
+我 rr B-H B-H
+倒 vi B-S B-S
+杯 ng N N
+茶 ng B-O B-O
+放在 v N N
+书桌 n B-L B-L
+上 f I-L I-L
+
+帮 v N N
+我 rr B-H B-H
+倒 vi B-S B-S
+杯 ng N N
+果汁 n B-O B-O
+放在 v N N
+书桌 n B-L B-L
+上 f I-L I-L
+
+给 p B-S B-S
+我 rr B-H B-H
+一个 mq N N
+打火机 n B-O B-O
+放在 v N N
+茶几 n B-L B-L
+上 f I-L I-L
+
+给 p N N
+我 rr B-H B-H
+拿 v B-S B-S
+个 q N N
+橙子 n B-O B-O
+放在 v N N
+茶几 n B-L B-L
+上 f I-L I-L
+
+帮 v N N
+我 rr B-H B-H
+拿 v B-S B-S
+个 q N N
+桔子 n B-O B-O
+放在 v N N
+茶几 n B-L B-L
+上 f I-L I-L
+
+给 p N N
+我 rr B-H B-H
+倒 vi B-S B-S
+杯 ng N N
+饮料 n B-O B-O
+放在 v N N
+茶几 n B-L B-L
+上 f I-L I-L
+
+帮 v N N
+他 rr B-H B-H
+泡 v B-S B-S
+杯 ng N N
+茶 ng B-O B-O
+放在 v N N
+茶几 n B-L B-L
+上 f I-L I-L
+
+帮 v N N
+我 rr B-H B-H
+倒 vi B-S B-S
+杯 ng N N
+咖啡 n B-O B-O
+放在 v N N
+茶几 n B-L B-L
+上 f I-L I-L

@@ -1,0 +1,36 @@
+﻿把	pba
+水	n
+倒入	v
+杯	ng
+中	f
+
+把	pba
+开水	n
+倒入	v
+茶杯	n
+中	f
+
+把	pba
+花	n
+放	v
+入	v
+花盆	n
+
+把	pba
+牛奶	n
+放	v
+入	v
+微波炉	n
+
+把	pba
+衣服	n
+放	v
+入	v
+衣柜	n
+
+把	pba
+咖啡	n
+倒入	v
+杯子	n
+
+

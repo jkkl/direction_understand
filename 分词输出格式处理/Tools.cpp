@@ -13,6 +13,7 @@ using namespace std;
 using namespace System;
 using namespace System::Runtime::InteropServices;
 
+
 //基本数据类型转换
 template <class T>
 void convertFromString(T &value,const string &s)
@@ -51,6 +52,60 @@ void split(const std::string& src, const std::string& separator, std::vector<std
     substring = str.substr(start);
     dest.push_back(substring);
 }
+
+/* 
+**	控制输出格式:将空格替换为换行 将/替换为\t
+**	infile  分词标注后的文件：一句一行
+**	outfile	一词一行
+*/
+int  OutFileFormat(const char* infile,const char* outfile)
+{
+	//StreamReader sr = new StreamReader();
+	ifstream infiles;
+	ofstream outfiles;
+
+	infiles.open(infile);
+	if(!infile){
+		std::cerr << "ERROR: infile is NULL";
+		return 0;
+	}
+	outfiles.open(outfile);
+	if(!outfile){
+	std::cerr << "ERROR: outfile is NULL";
+		return 0;
+	}
+
+	std::string line;
+	std::string newline = "";
+
+	while ( !infiles.eof() ){
+		std::getline(infiles,line);
+		for (int i = 0; i < strlen(line.c_str()); i++)
+		{
+			if (line[i] == ' ')
+			{
+				line[i] = '\n';
+			}
+			else if (line[i] == '/')
+			{
+				line[i] = '\t';
+			}
+			else
+			{
+				newline+= line[i];
+			}
+		}
+		outfiles.write(line.c_str(),strlen(line.c_str()));
+		char* _n = "\n";
+		outfiles.write(_n,strlen(_n));
+	}
+
+	infiles.close();
+	outfiles.close();
+	return 0;
+}
+
+
 /* 
 **	语料文本数值化
 **	infile  输入文件

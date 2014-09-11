@@ -1,0 +1,35 @@
+﻿把	pba	N
+水	n	B-O
+倒入	v	B-S
+杯	ng	N
+中	f	B-O
+
+把	pba	N
+开水	n	B-O
+倒入	v	N
+茶杯	n	B-L
+中	f	I-L
+
+把	pba	N
+花	n	B-O
+放	v	B-S
+入	v	N
+花盆	n	B-O
+
+把	pba	N
+牛奶	n	B-O
+放	v	B-S
+入	v	N
+微波炉	n	B-O
+
+把	pba	N
+衣服	n	B-O
+放	v	B-S
+入	v	N
+衣柜	n	B-O
+
+把	pba	N
+咖啡	n	B-O
+倒入	v	B-S
+杯子	n	B-O
+

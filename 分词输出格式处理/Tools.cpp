@@ -153,7 +153,7 @@ void tagWordToInt(const char* fileDir,const char* dictDir, const char* outDir)
 	//获取语料文件的 词块
 	//string outline = "";
 	while (std::getline(infile,line)){
-		split(line," ",vline);
+		split(line,"\t",vline);
 		if (vline.size() > 2)
 		{
 			for (int i = 0; i < vline.size(); i++)

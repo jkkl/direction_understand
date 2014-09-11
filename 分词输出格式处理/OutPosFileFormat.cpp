@@ -222,8 +222,15 @@ int GetRecordRows()
 
 void main()
 {
-	OutFileFormat("E:\\NLP\\mywork\\project\\githup\\direction_understand\\learncorpus_pos.txt",
-					"E:\\NLP\\mywork\\project\\githup\\direction_understand\\learncorpus_posformat.txt");
+	//1 分词标注原始语料
+	//2 将分词标注好的语料格式化
+	//OutFileFormat("E:\\NLP\\mywork\\project\\githup\\direction_understand\\learncorpus_pos.txt",
+	//				"E:\\NLP\\mywork\\project\\githup\\direction_understand\\learncorpus_posformat.txt");
+	//3 用训练好的CRF模型标注格式化的标注语料
+	//4 将out3数值化
+	tagWordToInt("E:\\NLP\\mywork\\project\\githup\\direction_understand\\CRF\\regout",
+			"E:\\NLP\\mywork\\project\\githup\\direction_understand\\wordid.txt",
+			"E:\\NLP\\mywork\\project\\githup\\direction_understand\\corpustoint.txt");
 	//ReadWriteFile();
 	//cout << GetRecordRows();
 	//ReadWriteFile("E:/NLP/corpus/pos_train.txt","E:/NLP/corpus/CRF/TestNER_train.txt");
